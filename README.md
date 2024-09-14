@@ -34,7 +34,14 @@ The website is designed to give an overview of who I am, my skillset, and the pr
 - **Contact**: A form to connect with me via email.
 
 ## 📸 Screenshot
-![Portfolio Screenshot](path_to_screenshot.png)
+![Portfolio Screenshot](images/ss1)
+![Portfolio Screenshot](images/ss2)
+![Portfolio Screenshot](images/ss3)
+![Portfolio Screenshot](images/ss4)
+![Portfolio Screenshot](images/ss5)
+![Portfolio Screenshot](images/ss6)
+![Portfolio Screenshot](images/ss7)
+
 
 ## 📂 Folder Structure
 ```bash
