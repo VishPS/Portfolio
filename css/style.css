@@ -2603,23 +2603,7 @@ input[type="button"].btn-block {
   .dropdown-menu-lg-right {
     right: 0;
     left: auto; } }
-#animated-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000; /* black background */
-  z-index: -1; /* ensure it's behind other elements */
-}
-.meteor {
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  background-color: #fff; /* white color for the meteor */
-  border-radius: 50%;
-  animation: fall 2s linear infinite;
-}
+
 
 @keyframes fall {
   0% {
