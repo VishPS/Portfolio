@@ -37,7 +37,11 @@
 	<body>
 	  <!-- Add a container for the animated background -->
 	  <div id="animated-background"></div>
-	
+	  <!-- Add audio element for background music -->
+	  <audio id="background-music" autoplay loop>
+		<source src="trop.mp3" type="audio/mp3">
+		Your browser does not support the audio element.
+	  </audio>
 	  <!-- Add JavaScript for the animation -->
 	  <script>
 		const animatedBackground = document.getElementById('animated-background');
