@@ -33,65 +33,28 @@
 		  }
 		}
 	  </style>
-
-  <!-- Rest of your HTML content -->
-</body>
-</html>
-</head>
-<body>
-  <!-- Add a container for the animated background -->
-  <div id="animated-background"></div>
-
-  <!-- Add JavaScript for the animation and cursor highlight -->
-  <script>
-    const animatedBackground = document.getElementById('animated-background');
-
-    function createMeteor() {
-      const meteor = document.createElement('div');
-      meteor.className = 'meteor';
-      meteor.style.top = `${Math.random() * 100}%`;
-      meteor.style.left = `${Math.random() * 100}%`;
-      animatedBackground.appendChild(meteor);
-      setTimeout(() => {
-        meteor.remove();
-      }, 2000 + Math.random() * 3000); // remove meteor after 2-5 seconds
-    }
-
-    setInterval(createMeteor, 100); // create a new meteor every 100ms
-
-    // Add cursor highlight effect
-    const cursorHighlight = document.createElement('div');
-    cursorHighlight.className = 'cursor-highlight';
-    document.body.appendChild(cursorHighlight);
-
-    document.addEventListener('mousemove', (e) => {
-      cursorHighlight.style.top = `${e.clientY}px`;
-      cursorHighlight.style.left = `${e.clientX}px`;
-    });
-  </script>
-  
-</head>
-<body>
-  <!-- Add a container for the animated background -->
-  <div id="animated-background"></div>
-
-  <!-- Add JavaScript for the animation -->
-  <script>
-    const animatedBackground = document.getElementById('animated-background');
-
-    function createMeteor() {
-      const meteor = document.createElement('div');
-      meteor.className = 'meteor';
-      meteor.style.top = `${Math.random() * 100}%`;
-      meteor.style.left = `${Math.random() * 100}%`;
-      animatedBackground.appendChild(meteor);
-      setTimeout(() => {
-        meteor.remove();
-      }, 2000 + Math.random() * 3000); // remove meteor after 2-5 seconds
-    }
-
-    setInterval(createMeteor, 100); // create a new meteor every 100ms
-  </script>
+	</head>
+	<body>
+	  <!-- Add a container for the animated background -->
+	  <div id="animated-background"></div>
+	
+	  <!-- Add JavaScript for the animation -->
+	  <script>
+		const animatedBackground = document.getElementById('animated-background');
+	
+		function createMeteor() {
+		  const meteor = document.createElement('div');
+		  meteor.className = 'meteor';
+		  meteor.style.top = `${Math.random() * 100}%`;
+		  meteor.style.left = `${Math.random() * 100}%`;
+		  animatedBackground.appendChild(meteor);
+		  setTimeout(() => {
+			meteor.remove();
+		  }, 2000 + Math.random() * 3000); // remove meteor after 2-5 seconds
+		}
+	
+		setInterval(createMeteor, 100); // create a new meteor every 100ms
+	  </script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
