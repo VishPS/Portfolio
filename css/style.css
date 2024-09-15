@@ -2612,6 +2612,23 @@ input[type="button"].btn-block {
   background-color: #000; /* black background */
   z-index: -1; /* ensure it's behind other elements */
 }
+.meteor {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #fff; /* white color for the meteor */
+  border-radius: 50%;
+  animation: fall 2s linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
 @media (min-width: 1200px) {
   .dropdown-menu-xl-left {
     right: auto;
