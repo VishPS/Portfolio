@@ -1,0 +1,151 @@
+/* mobile-optimizations.css */
+
+/* Base responsive styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Responsive container */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Responsive typography */
+@media (max-width: 767px) {
+  body {
+    font-size: 0.9rem;
+  }
+  h1, .h1 { font-size: 2rem; }
+  h2, .h2 { font-size: 1.75rem; }
+  h3, .h3 { font-size: 1.5rem; }
+  h4, .h4 { font-size: 1.25rem; }
+  h5, .h5 { font-size: 1rem; }
+}
+
+/* Responsive navbar */
+@media (max-width: 991px) {
+  .ftco-navbar-light {
+    background: #000000 !important;
+    position: relative;
+    top: 0;
+    padding: 10px 15px;
+  }
+
+  .ftco-navbar-light .navbar-nav {
+    padding-bottom: 20px;
+  }
+
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    padding: 0.5rem 0;
+  }
+}
+
+/* Responsive sections */
+@media (max-width: 767px) {
+  .ftco-section {
+    padding: 4em 0;
+  }
+}
+
+/* Responsive footer */
+@media (max-width: 767px) {
+  .ftco-footer {
+    padding: 4em 0;
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive form elements */
+@media (max-width: 767px) {
+  .form-control {
+    height: 44px !important;
+    font-size: 1rem;
+  }
+}
+
+/* Responsive buttons */
+@media (max-width: 767px) {
+  .btn {
+    font-size: 0.7rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive grid adjustments */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+[class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Responsive breakpoints */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Hide vertical text on mobile */
+@media (max-width: 991px) {
+  .hero h3.vr {
+    display: none;
+  }
+}
+
+/* Additional mobile optimizations */
+@media (max-width: 767px) {
+  /* Improve touch targets */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Adjust spacing */
+  .ftco-section,
+  .ftco-footer {
+    padding: 3em 0;
+  }
+
+  /* Improve readability */
+  p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
